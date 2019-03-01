@@ -1,6 +1,6 @@
 # Screen Shots 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/payanthe/Charities-Benefactors-Connecter-Organization-In-Laravel-/raw/master/Screen%20Shots/1%20(1).jpg)
 
 # Laravel PHP Framework
 
