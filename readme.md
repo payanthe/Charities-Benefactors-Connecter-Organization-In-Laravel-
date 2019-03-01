@@ -1,3 +1,7 @@
+# Screen Shots 
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
