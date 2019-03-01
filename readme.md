@@ -1,8 +1,10 @@
 # Screen Shots 
 
 ![alt text](https://github.com/payanthe/Charities-Benefactors-Connecter-Organization-In-Laravel-/raw/master/Screen%20Shots/1%20(1).jpg)
+![alt text](https://github.com/payanthe/Charities-Benefactors-Connecter-Organization-In-Laravel-/raw/master/Screen%20Shots/1%20(2).jpg)
+![alt text](https://github.com/payanthe/Charities-Benefactors-Connecter-Organization-In-Laravel-/raw/master/Screen%20Shots/1%20(3).jpg)
 
-# Laravel PHP Framework
+# OnLaravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
