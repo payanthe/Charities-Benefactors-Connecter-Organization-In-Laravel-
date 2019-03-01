@@ -1,0 +1,69 @@
+.RegForm .formDiv{
+    background: rgba(255,255,255,0.85);
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.RegForm .formDiv span{
+    color: #293033;
+    font-size: 25px;
+    font-family: myFont3;
+}
+.RegForm .dotted{
+    border-style: dotted;
+    border-radius: 0;
+}
+.RegForm form input:focus::placeholder{
+    opacity: 0;
+}
+.RegForm form textarea:focus::placeholder{
+    opacity: 0;
+}
+.RegForm form input::placeholder,textarea{
+    color: #484648 !important;
+    font-size: 16px;
+}
+.RegForm form input{
+    margin-bottom: 11px;
+    border: none!important;
+    background: transparent!important;
+    border-bottom: 1px solid #8c8c8c!important;
+    border-radius: 0!important;
+}
+.RegForm form input:focus{
+    border-bottom: 2px solid #FD5961!important;
+}
+.RegForm textarea:focus{
+    border: 2px solid #FD5961!important;
+}
+.RegForm form input[type=submit]{
+    color: #1d1e1f;
+    cursor: pointer;
+    margin: 0;
+    border: 1px solid #8c8c8c!important;
+    font-size: 20px;
+    transition: all 0.4s;
+    border-radius: 5px!important;
+    background: #ffffff!important;
+}
+.RegForm form input[type=submit]:hover,form input[type=submit]:focus{
+    background: #FD5961!important;
+    color: #ffffff;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FD5961;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FD5961;
+}

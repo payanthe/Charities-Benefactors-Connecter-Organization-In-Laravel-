@@ -1,0 +1,59 @@
+.formDiv{
+    background: rgba(255,255,255,0.9);
+    height: 400px;
+    padding-top: 20px;
+    border-radius: 5px;
+
+}
+.formDiv span{
+    color: #293033;
+    font-size: 25px;
+    font-family: myFont3;
+}
+
+.dotted{
+    border-style: dotted;
+    border-radius: 0;
+}
+.LoginMain form{
+    height: 300px;
+}
+.LoginMain form > input{
+    border: 1px solid #8c8c8c !important;
+}
+.LoginMain form > input[type='email']{
+    margin-top: 30px;
+    border: none!important;
+    border-bottom: 1px solid #8c8c8c!important;
+    border-radius: 0!important;
+    background: transparent!important;
+}.LoginMain form > input[type='password']{
+    margin-top: 20px;
+     border: none!important;
+     border-bottom: 1px solid #8c8c8c!important;
+     border-radius: 0!important;
+     background: transparent!important;
+}.LoginMain form > input[type='submit']{
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 8px;
+}
+.LoginMain  form >input[type='submit']{
+     color: black;
+     font-size: 20px;
+ }
+.LoginMain form > input[type='submit']:hover,form > input[type='submit']:focus{
+    background: #FD5961;
+    color: #ffffff;
+}
+.LoginMain  form input:focus{
+     border-bottom:2px solid #FD5961!important;
+ }
+.LoginMain  form input::placeholder{
+     color: black !important;
+     font-size: 16px;
+ }
+.LoginMain form input:focus::placeholder{
+     opacity: 0;
+ }

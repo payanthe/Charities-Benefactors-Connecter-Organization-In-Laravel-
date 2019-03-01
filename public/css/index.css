@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("../fonts/Merienda-Regular.ttf");
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url("../fonts/rb.ttf");
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url("../fonts/rm.ttf");
+}
+a:any-link{
+    text-decoration: none;
+}
+.active{
+    text-decoration: underline solid #FD5961 !important;
+}
+.active:hover{
+    color: #FD5961!important;
+}
+.row{
+    margin: 0;
+}
+hr{
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid #FD5961;
+}
+body{
+    background: url("../img/charity-events.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: myFont3;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    border-bottom-right-radius: 10px;
+    z-index: 100;
+}
+.Cname{
+    font-family: myFont2;
+    font-size: 45px;
+    color: #ffffff;
+    position: relative;
+    height: 100%;
+}
+.Cname > span{
+    position: relative;
+    font-size: 40px;
+    top: 5px;
+}
+.logoBox{
+    -webkit-clip-path: polygon(0% 0%, 0 100%, 10% 95%, 18% 100%, 26% 95%, 33% 100%, 42% 95%, 50% 100%, 58% 95%, 66% 100%, 74% 95%, 82% 100%, 90% 95%, 100% 100%, 100% 0);
+    clip-path: polygon(0% 0%, 1% 5%,0 100%,10% 95%, 18% 100%, 26% 95%, 33% 100%, 42% 95%, 50% 100%, 58% 95%, 66% 100%, 74% 95%, 82% 100%, 90% 95%, 100% 100%, 99% 5%,100% 0);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 30px;
+    height: 150px;
+    background: #FD5961;
+    z-index: 1000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: #ffffff;
+}
+.logoBox:hover{
+    padding-top: 30px;
+    height: 180px;
+}
+.logoBox i{
+    font-size: 40px;
+    transition: all 0.5s;
+}
+.logoBox:hover i{
+    font-size: 55px;
+}
+.nav-item{
+    margin:0 7px 0 7px;
+    color: #FD5961;
+    font-family: myFont2;
+    font-size: 17px;
+}
+.nav-item:hover{
+    color: #2e5a73;
+}
+.loginBox{
+    padding-right: 10px;
+}
+.userLogedIn{
+    color: #FD5961;
+}
+.loginBox i{
+    position: relative;
+    top: 2px;
+    color: #FD5961;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    color: #ffffff;
+}
+ .maindiv{
+    height: 590px;
+    background: rgba(23,23,31,0.6);
+     -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+     clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+.header{
+    margin-top: 10px;
+    font-size: 50px;
+    height: 60px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #000000;
+}
+strong{
+    color: #FD5961;
+    letter-spacing: 3px;
+}
+.headerDetail{
+    font-size: 32px;
+    text-shadow: 2px 2px 1px #000000;
+    margin-top: -50px;
+}
+.headerDetail > p > span{
+    font-weight: bold;
+    font-size: 35px;
+    color: #FD5961;
+}
+.DoC{
+    margin-top: -100px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+    border-style: dotted;
+}
+.charitiesHolder{
+    background: rgba(255,255,255,0.8);
+    padding: 20px 0 20px 0;
+    border-top: 2px solid #FD5961;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 52% 0, 52% 5%, 48% 0);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 52% 0, 50% 4%, 48% 0);
+}
+.headerTitle{
+    font-family: myFont2;
+    font-size: 35px;
+    color: #FD5961;
+}
+.charitiesBox{
+    color: #1d1e1f;
+    font-family: myFont2;
+    text-align: center;
+}
+.charitiesBox img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    height: 250px;
+}
+.charitiesBox > span{
+    font-size: 20px;
+}
+.charitiesBox > .button{
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #FD5961;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.charitiesBox > .button:hover{
+    background: #FD5961;
+    color: #ffffff;
+}
+.donatorsHolder{
+    background: rgba(255,255,255,0.8);
+}
+.skills{
+    font-size: 18px;
+    color: #FD5961;
+}
+.donatorsBar img{
+    height: 200px!important;
+}
+header input[type=search]:focus{
+    outline: none;
+}
+ span strong{
+     padding: 0;
+    font-size: 12px;
+}
