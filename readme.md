@@ -1,3 +1,8 @@
+# What Is This Project  
+
+BCO stands for Charities & Benefactors Connecter Organization .
+you can join us and make the world a better place a web Application for connecting charities and benefactors .
+
 # Screen Shots 
 
 ![alt text](https://github.com/payanthe/Charities-Benefactors-Connecter-Organization-In-Laravel-/raw/master/Screen%20Shots/1%20(1).jpg)
